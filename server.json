@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.omgawdmadeit1/dogeforge-marketplace",
+  "title": "DogeForge Agent Skill Marketplace",
+  "description": "Decentralized Dogecoin-native MCP for agent skill discovery, certified execution, rating, royalties, micropayments. Super-aligned, explainable, SSI-safe.",
+  "websiteUrl": "https://lvlltd.com",
+  "repository": {
+    "url": "https://github.com/omgawdmadeit1/dogeforge-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@omgawdmadeit1/dogeforge-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "remotes": []
+}

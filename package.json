@@ -1,0 +1,22 @@
+{
+  "name": "@omgawdmadeit1/dogeforge-mcp",
+  "version": "0.1.0",
+  "description": "DogeForge MCP server: Dogecoin-native agent skill marketplace for discovery, certified execution, royalties, and micropayments. Governance-enforced (super-alignment + explainability + SSI/PASS protection). Highest-leverage for grant agents, music production, Tesla/XYO real-world bridges.",
+  "mcpName": "io.github.omgawdmadeit1/dogeforge-marketplace",
+  "keywords": ["mcp", "mcp-server", "agent-marketplace", "dogeforge", "dogecoin", "agent-skills", "ai-agents", "skill-discovery", "x402", "royalties", "super-alignment", "grant-writing", "music-production", "tesla-fleet"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omgawdmadeit1/dogeforge-mcp.git"
+  },
+  "author": "Joseph Lamar Taylor (@OmgawdMadeit)",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "bin": {
+    "dogeforge-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "files": ["dist", "llms.txt", "server.json"]
+}
